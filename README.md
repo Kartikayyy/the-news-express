@@ -1,2 +1,2 @@
 
-<h1>The News Express</h1>
+<h1 style"align: center;">The News Express</h1>

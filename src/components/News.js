@@ -17,7 +17,7 @@ const News = (props) => {
 
   const updateNews = async () => {
     props.setProgress(10);
-    console.log();
+    
     let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&q=${props.keyword}&category=${props.category}&apiKey=15a5d5de56314d7ba3c60f61e17c3049&page=${page}&pagesize=${props.pageSize}`;
     setloading(true);
     let data = await fetch(url);
@@ -35,7 +35,7 @@ const News = (props) => {
       !props.category ? "HOME" : capitalizeFirstLetter(props.category)
     } - The News Express`;
     updateNews();
-  }, []);
+  }, [props.country, props.keyword, props.category, props.pageSize]);
 
   const fetchMoreData = async () => {
     setPage(page + 1);

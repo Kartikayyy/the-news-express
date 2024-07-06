@@ -7,8 +7,7 @@
 <p>A fully responsive news application using React.js ensuring optimal performance across devices.
 	Integrated the News API to dynamically fetch and display news articles across various categories, enhancing user
 	engagement.
-	Users can seamlessly switch between different news categories (e.g., Sports, Technology, Business, Entertainment
-,Science etc).</p><br>
+	Users can seamlessly switch between different news categories (e.g., Sports, Technology, Business, Entertainment, Science etc).</p><br>
 <ul>Technologies Used - 
 	<li>ReactJS</li>
 	<li>Bootstrap CSS</li>
